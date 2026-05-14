@@ -8,3 +8,11 @@ Cache_Path[Path] Line0002 = "Cache_{96FCFFEE-92FF-41D7-8A5C-2E1B7D4F08B1}.txt"
 [AB_Cache_{9236DFC5-A1BE-45C5-93F4-A12737594CB8}]
 Cache_Path[Path] Line0001 = "/C/Users/halstead_rideriver/AppData/Local/Temp/AB_"
 Cache_Path[Path] Line0002 = "Cache_{9236DFC5-A1BE-45C5-93F4-A12737594CB8}.txt"
+
+[AB_Cache_{29CC14E8-8B6D-4F10-8C8D-247B078CD13A}]
+Cache_Path[Path] Line0001 = "/C/Users/halstead_rideriver/AppData/Local/Temp/AB_"
+Cache_Path[Path] Line0002 = "Cache_{29CC14E8-8B6D-4F10-8C8D-247B078CD13A}.txt"
+
+[AB_Cache_{5955D838-7B12-41FC-9A45-E738AD4FF473}]
+Cache_Path[Path] Line0001 = "/C/Users/halstead_rideriver/AppData/Local/Temp/AB_"
+Cache_Path[Path] Line0002 = "Cache_{5955D838-7B12-41FC-9A45-E738AD4FF473}.txt"

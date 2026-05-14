@@ -63,9 +63,52 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="DC-DC-SC-2-cluster.ctl" Type="VI" URL="../controls/DC-DC-SC-2-cluster.ctl"/>
+		<Item Name="DC-DC-SC-2-enum.ctl" Type="VI" URL="../controls/DC-DC-SC-2-enum.ctl"/>
+		<Item Name="DC-DC_SC.vi" Type="VI" URL="../DC-DC_SC.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="DC_DC_SC" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AFF3B9BF-3BB2-4A00-AC55-C6B9E7C94E1D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{960320FC-7CA6-4656-A896-58E748C749C1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{29CC14E8-8B6D-4F10-8C8D-247B078CD13A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DC_DC_SC</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/DC_DC_SC/DC_DC_SC</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5955D838-7B12-41FC-9A45-E738AD4FF473}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DC_DC_SC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/DC_DC_SC/DC_DC_SC/DC_DC_SC.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/DC_DC_SC/DC_DC_SC/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CEB921CE-7F72-46D7-856D-DF400595997E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DC-DC_SC.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DC_DC_SC_Durability</Property>
+				<Property Name="TgtF_internalName" Type="Str">DC_DC_SC_Durability</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
+				<Property Name="TgtF_productName" Type="Str">DC_DC_SC_Durability</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9F8DA842-A7A2-4AEC-ACA7-4CAB9C597378}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DC_DC_SC.exe</Property>
+			</Item>
 			<Item Name="DC_DC_SC_Durability" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
